@@ -26,6 +26,26 @@ header hr {
   display: none;
 }
 
+.divider {
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 0% 5%;
+}
+
+.divider p {
+  color: #000000;
+
+}
+
+.divider hr {
+  color: #666666;
+  width: 60%;
+  height: 0px;
+}
+
 @media (max-width: 700px) {
   header {
     flex-direction: column;
@@ -47,5 +67,22 @@ header hr {
     color: #f2f2f2;
     width: 25%;
     margin: 0;
+  }
+
+  .divider {
+    flex-direction: column;
+    padding: 0;
+    height: 40px;
+    margin-top: 40px;
+  }
+
+  .divider hr {
+    width: 25%;
+    margin: 0;
+  }
+
+  .divider p {
+    font-size: 30px;
+    margin: 10px;
   }
 }
