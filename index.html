@@ -17,14 +17,14 @@
       <p>ACCORDIAN TABS</p>
       <hr />
     </div>
-    <section>
-      <div class="tab" id="tab1">Tab 1</div>
-      <div class="tab" id="tab2">Tab 2</div>
-      <div class="tab" id="tab3">Tab 3</div>
-      <div class="tab" id="tab4">Tab 4</div>
-      <article class="tab-card" id="tab-card1">
+    <section id="accordian-tabs">
+      <div class="tab tab-viewing" id="tab1"><p>Tab 1<p><p class="min-max">—</p></div>
+      <div class="tab" id="tab2"><p>Tab 2<p><p class="min-max">+</p></div>
+      <div class="tab" id="tab3"><p>Tab 3<p><p class="min-max">+</p></div>
+      <div class="tab" id="tab4"><p>Tab 4<p><p class="min-max">+</p></div>
+      <article class="tab-card tab-card-viewing" id="tab-card1">
         <img src="images/kate.jpg" alt="The beautiful Kate McKinnon" />
-        <div>
+        <div class="tab-card-text">
           <p class="first-line">Lorem ipsum dolor sit amet, consectetue</p>
           <hr />
           <p class="body1">
@@ -99,6 +99,8 @@
         </div>
       </article>
     </section>
+
+    <a href="https://codepen.io/lolakoala/pen/pdMOzm" target="_blank">VIEW CODE</a>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <script src="./scripts.js"></script>
