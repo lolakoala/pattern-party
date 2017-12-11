@@ -74,6 +74,7 @@ header hr {
 }
 
 .tab-card {
+  width: 93.5%;
   display: none;
   padding: 3%;
   border: 2px solid #d1d2d3;
