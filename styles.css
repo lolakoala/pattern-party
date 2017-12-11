@@ -170,8 +170,6 @@ a {
     margin: 10px;
   }
 
-  /*set up columns for mobile view for accordion tabs*/
-
   #tab1 {
     order: 1;
   }
