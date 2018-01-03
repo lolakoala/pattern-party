@@ -26,3 +26,12 @@ const toggleTabsView = event => {
 
 
 $('.tab').click(event => toggleTabsView(event));
+
+// js for header BAR
+
+const toggleHeader = () => {
+  $('.nav-link').toggleClass('show');
+  $('.header-search-box').toggleClass('show')
+}
+
+$('#header-menu').click(toggleHeader);
